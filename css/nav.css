@@ -33,7 +33,7 @@ body {
 header {
     width: 100%;
     height: 70px;
-    padding: 30px 4vw 20px 4vw;
+    padding: 30px 4vw;
     text-align: center;
 }
 
@@ -43,15 +43,17 @@ header {
 
 header nav ul {
     display: flex;
-    /* justify-content: space-between; */
     font-size: 18px;
-    /* background-color: aqua; */
 
 }
 
 header nav ul li {
-    padding: 0 2vw;
+    padding: 0 24px;
     text-transform: capitalize;
+}
+
+header nav ul li a {
+    color: var(--mainTextColor);
 
 }
 
@@ -60,7 +62,7 @@ header nav ul li:nth-child(2) {
 }
 
 
-header nav ul li:nth-child(7) {
+header nav ul li:last-child {
     display: none;
 
 }
