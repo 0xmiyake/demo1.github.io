@@ -1,0 +1,37 @@
+
+#darkmode {
+    cursor: pointer;
+}
+
+body {
+    /* background-color: var(--darkBackColor); */
+}
+
+.header-darkmode {
+    color: var(--darkTextColor);
+    background-color: var(--darkBackColor);
+    transition: all 0.5s linear;
+
+}
+
+.appeared-darkmode {
+    color: var(--darkTextColor);
+    background-color: var(--darkBackColor);
+    transition: all 0.5s linear;
+
+}
+
+.goddes-darkmode {
+    color: var(--darkTextColor);
+    background-color: var(--darkBackColor);
+    transition: all 0.5s linear;
+}
+
+
+.news-darkmode {
+    color: var(--darkTextColor);
+    background-color: var(--darkBackColor);
+    transition: all 0.5s linear;
+
+}
+

@@ -1,0 +1,99 @@
+
+
+
+/* --------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+
+    h1 {
+        display: none;
+    }
+
+    header nav ul {
+        align-items: center;
+    }
+
+
+    header nav ul li {
+        display: none;
+    }
+
+    header nav ul li:nth-child(7)  {
+        display: block;
+        margin-left: auto;
+        font-size: 28px;
+        margin-left: auto;
+    }   
+
+    .footer-image {
+        display: none;
+    }
+
+
+
+    .goddes-space-image {
+        /* max-width: 380px;
+        width: 100%; */
+        height: 230px;
+    }
+
+/* --------------------news----------------------- */
+
+    .news-content i {
+        display: none;
+    }
+
+    .news-content dt:nth-child(1) {
+        padding-right: 20px;
+    }
+
+    .news-content span {
+        /* padding-right: 200px; */
+    }
+
+    .news-list dd {
+        padding-top: 20px;
+    }
+
+    .news-list dt {
+        color: var(--subTextCOlor);
+    }
+
+
+
+/* ------------------menu-box--------------------------- */
+
+    .menu-box {
+        display: block;
+    }
+
+    .menu-box {
+        width: 30%;
+        height: 100vh;
+        background-color: var(--chocolateColor);
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: 100;
+        position: fixed;
+    
+    }
+
+
+    .menu-box ul {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .menu-box ul li {
+        font-size: 32px;
+        text-transform: capitalize;
+        margin: 18px 0;
+    }
+
+
+
+}
