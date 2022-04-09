@@ -12,7 +12,7 @@ const createNav = () => {
                 <div class="icon">ARTEMIS</div>
                 <li>about</li>
                 <li>shop</li>
-                <li><a href="news.html"></a>news</li>
+                <li><a href="news.html">news</a></li>
                 <li>contact</li>
                 <li id=darkmode>darkmode</li>
                 <li><i id="menu" class="fa-solid fa-align-right"></i></li>
@@ -28,7 +28,7 @@ const createNav = () => {
         <ul>
             <li>about</li>
             <li>shop</li>
-            <li><a href="news.html"></a>news</li>
+            <li><a href="news.html">news</a></li>
             <li>contact</li>
             <li id=darkmode>darkmode</li>
         </ul>
